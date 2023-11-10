@@ -1,0 +1,10 @@
+Hola Diego.
+
+Las páginas responsive para esta segunda preentrega son las dos primeras, es decir:
+- index.html
+- lugares.html
+
+Utilizé Boostrap para hacer repsonsive la página, creé mi propio archivo para estilos adicionales, pero no me vi en la necesidad de hacer medias query.
+
+Gracias de antemano.
+Saludos.
