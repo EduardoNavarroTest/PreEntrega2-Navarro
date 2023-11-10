@@ -4,30 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colombia</title>
+    <title>Wellcome Colombia</title>
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="../img/logo-colombia-co.png" />
+
+    <!-- CSS Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS Local -->
     <link rel="stylesheet" href="../css/style.css">
+
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <a href="../index.html">
-                <img class="logo" src="../img/logo-colombia-co.png" alt="Logo Colombia">
-            </a>
-            <h6>ThisIsColombia.Com</h6>
-        </div>
-
-        <nav>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./lugares.html">Lugares</a></li>
-                <li><a href="./biodiversidad.html">Biodiversidad</a></li>
-                <li><a href="./acerca.html">Acerca de</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+        <!-- Nabvar Boostrap -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="logo" src="../img/logo-colombia-co.png" alt="Logo web">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto containerNav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/lugares.html">Lugares</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/biodiversidad.html">Biodiversidad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/acerca.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
+
     <main>
         <h1>Biodiversidad</h1>
 
@@ -69,21 +94,41 @@
 
     </main>
 
-    <footer>
-        <h4>Síguenos en:</h4>
-        <div class="social-icon">
-            <img src="../img/instagram-ico.png" alt="Instagram">
-            <a href="https://www.instagram.com/kikenavarroec/" target="_blank">
-                @ThisIsColombia
-            </a>
+    <!-- Footer Boostrap -->
+    <footer class="bg-dark text-light text-center py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <p>Teléfono: +57 300 291 8447</p>
+                    <p>Correo electrónico: eduardonavarro.test@gmail.com</p>
+                    <p>Cartagena - Bolívar</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Enlaces</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../html/lugares.html">Lugares</a></li>
+                        <li><a href="../html/biodiversidad.html">Biodiversidad</a></li>
+                        <li><a href="../html/acerca.html">Acerca de nosotros</a></li>
+                        <li><a href="../html/contacto.html">Contacto</a></li>
+
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Redes sociales</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.instagram.com/kikenavarroec" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.twitter.com/kikenavarroec" target="_blank">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col">
+                    <p>&copy; 2023 TravelColombia. Todos los derechos reservados.</p>
+                </div>
+            </div>
         </div>
-        <div class="social-icon">
-            <img src="../img/twitter-ico.png" alt="Twitter">
-            <a href="https://twitter.com/kikenavarroec/" target="_blank">
-                @ThisIsColombia
-            </a>
-        </div>
-        <p>Copyright © 2023 ThisIsColombia.com</p>
     </footer>
 
 
