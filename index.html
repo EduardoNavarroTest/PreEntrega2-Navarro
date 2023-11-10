@@ -1,79 +1,155 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colombia</title>
+    <title>Wellcome Colombia</title>
+
+    <!-- Favicon -->
     <link rel="icon" type="image/png" href="img/logo-colombia-co.png" />
+
+    <!-- CSS Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- CSS Local -->
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
+
+<!-- PENDIENTES
+Linkear las demás hojas
+Cuando todo termine reemplazar el index y el style
+Agregar un slide de imagenes
+Ver qué más información se puede colocar -->
 
 <body>
     <header>
-
-        <div class="logo">
-            <a href="./index.html">
-                <img class="logo" src="./img/logo-colombia-co.png" alt="Logo Colombia">
-            </a>
-            <h6>ThisIsColombia.Com</h6>
-        </div>
-
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./html/lugares.html">Lugares</a></li>
-                <li><a href="./html/biodiversidad.html">Biodiversidad</a></li>
-                <li><a href="./html/acerca.html">Acerca de</a></li>
-                <li><a href="./html/contacto.html">Contacto</a></li>
-            </ul>
+        <!-- Nabvar Boostrap -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="logo" src="../img/logo-colombia-co.png" alt="Logo web">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto containerNav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/lugares.html">Lugares</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/biodiversidad.html">Biodiversidad</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/acerca.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
+
     <main>
-        <h1>¡Bienvenidos a Colombia!</h1>
 
-        <div class="contenedorMainPrincipal">
-            <div>
-                <img class="imgMain" src="./img/destinos-naturales-de-colombia.webp" alt="Destinos Colombia">
+        <!-- Imagén fondo + texto -->
+        <div class="imgFondo">
+            <div class="centrarTexto">
+                <h2>Bienvendidos a Colombia</h2>
+                <p>Colombia te invita a explorar su belleza única. ¡Ven y sé parte de la aventura!</p>
+
             </div>
-
-            <div>
-                <h2>¿Por qué viajar a Colombia?</h2>
-                <p>Colombia es un país lleno de sorpresas y contrastes, que se enorgullece de su diversidad geográfica y
-                    cultural. Desde las antiguas ciudades coloniales con sus calles empedradas y plazas históricas hasta
-                    la modernidad y la innovación en sus ciudades más grandes, hay algo para todos los gustos. Puedes
-                    explorar la belleza natural en sus parques nacionales, como el Parque Nacional Natural Tayrona y el
-                    Parque Nacional Natural Los Nevados, o sumergirte en la rica tradición cultural a través de
-                    festivales, música, danza y arte. La variada oferta de aventuras incluye senderismo en la selva,
-                    buceo en arrecifes de coral, avistamiento de aves exóticas y la posibilidad de degustar una de las
-                    mejores tazas de café del mundo. Colombia te espera con los brazos abiertos para que descubras su
-                    autenticidad y te sumerjas en una experiencia turística inolvidable.
-                </p>
-            </div>
-
         </div>
+
+
+
+            <h2>¿Por qué viajar a Colombia?</h2>
+            <p>Colombia es un país lleno de sorpresas y contrastes, que se enorgullece de su diversidad geográfica y
+                cultural. Desde las antiguas ciudades coloniales con sus calles empedradas y plazas históricas hasta
+                la modernidad y la innovación en sus ciudades más grandes, hay algo para todos los gustos. Puedes
+                explorar la belleza natural en sus parques nacionales, como el Parque Nacional Natural Tayrona y el
+                Parque Nacional Natural Los Nevados, o sumergirte en la rica tradición cultural a través de
+                festivales, música, danza y arte. La variada oferta de aventuras incluye senderismo en la selva,
+                buceo en arrecifes de coral, avistamiento de aves exóticas y la posibilidad de degustar una de las
+                mejores tazas de café del mundo. Colombia te espera con los brazos abiertos para que descubras su
+                autenticidad y te sumerjas en una experiencia turística inolvidable.
+
+
+
+
+        <!-- Carrousel Boostrap -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/canio-cristal.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/santa-marta.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/destinos-naturales-de-colombia.webp" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+
     </main>
 
-    <footer>
-        <h5>Síguenos en:</h4>
-        <div class="social-icon">
-            <img src="./img/instagram-ico.png" alt="Instagram">
-            <a href="https://www.instagram.com/kikenavarroec/" target="_blank">
-                @ThisIsColombia
-            </a>
-        </div>
-        <div class="social-icon">
-            <img src="./img/twitter-ico.png" alt="Twitter">
-            <a href="https://twitter.com/kikenavarroec/" target="_blank">
-                @ThisIsColombia
-            </a>
-        </div>
-        <p>Copyright © 2023 ThisIsColombia.com</p>
+
+
+    <footer class="bg-dark text-light text-center py-3">
+        <p>&copy; 2023 Tu Sitio. Todos los derechos reservados.</p>
     </footer>
 
 
 
 
+
+
+    <!-- Script Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
