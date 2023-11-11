@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Young+Serif&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +10,7 @@ body {
 header {
     position: sticky;
     top: 0;
-    z-index: 100; 
+    z-index: 100;
 }
 
 .contenido {
@@ -25,9 +23,9 @@ a {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
-  }
+}
 
 .containerNav {
     display: flex;
@@ -58,8 +56,8 @@ a:hover{
 
 .card img {
     width: 100%;
-    height: 300px; 
-    object-fit: cover; 
+    height: 300px;
+    object-fit: cover;
 }
 
 .colorTitleCards {
@@ -68,4 +66,83 @@ a:hover{
     padding: 10px;
     border-radius: 20px;
     margin-top: 50px;
+}
+
+
+
+/* Formulario Contacto */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.btnFormulario {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: auto;
+    display: flex;
+
+
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* Ocupan el ancho completo del carousel */
+    height: 500px;
+    /* Ajusta la altura según tus preferencias */
+    object-fit: cover;
+    /* Evita la distorsión de las imágenes */
+}
+
+iframe {
+    margin: 20px;
+    border-radius: 5px;
+}
+
+/* ACERCA DE */
+.containerMisionVision {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mision,
+.vision {
+    flex: 1;
+    margin-top: 15px;
+}
+
+
+.containerBio {
+    margin: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.imgBio {
+    display: block;
+    width: 100%;
+    height: auto;
+
 }
