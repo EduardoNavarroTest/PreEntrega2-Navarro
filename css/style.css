@@ -115,11 +115,6 @@ iframe {
     border-radius: 5px;
 }
 
-/* ACERCA DE */
-.containerMisionVision {
-    display: flex;
-    justify-content: space-between;
-}
 
 .mision,
 .vision {
@@ -127,17 +122,11 @@ iframe {
     margin-top: 15px;
 }
 
-.containerBio {
-    margin: 20px;
-    border: 2px solid gray;
-    border-radius: 5px;
-}
 
 .imgBio {
     display: block;
     width: 100%;
     height: auto;
-
 }
 
 .formContacto {
@@ -146,4 +135,14 @@ iframe {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     color: white;
+}
+
+.iframeAcerca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    color: #fafafa;
 }
