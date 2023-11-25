@@ -31,7 +31,6 @@ a:hover {
     display: flex;
     justify-content: end;
     font-size: 1.2rem;
-
 }
 
 .imgFondo {
@@ -44,7 +43,6 @@ a:hover {
     background-position: center;
     color: #fff;
     text-align: center;
-
 }
 
 .centrarTexto {
@@ -67,8 +65,6 @@ a:hover {
     border-radius: 20px;
     margin-top: 50px;
 }
-
-
 
 /* Formulario Contacto */
 form {
@@ -103,8 +99,6 @@ textarea {
     margin-top: 10px;
     margin-left: auto;
     display: flex;
-
-
 }
 
 .carousel-inner img {
@@ -133,7 +127,6 @@ iframe {
     margin-top: 15px;
 }
 
-
 .containerBio {
     margin: 20px;
     border: 2px solid gray;
@@ -145,4 +138,12 @@ iframe {
     width: 100%;
     height: auto;
 
+}
+
+.formContacto {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
 }

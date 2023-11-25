@@ -23,7 +23,7 @@
         <!-- Nabvar Boostrap -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">
+                <a class="navbar-brand" href="../index.html">
                     <img class="logo" src="../img/logo-colombia-co.png" alt="Logo web">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -53,25 +53,40 @@
         </nav>
     </header>
 
-    <main class="contenido">
-        <h1>Contacto</h1>
+    <main>
 
-        <form>
-            <label for="nombre"  class="contenido">Nombre completo</label>
-            <input type="text" id="nombre">
+        <!-- Formulario Contacto Boostrap -->
 
-            <label for="telefono" class="contenido">Teléfono</label>
-            <input type="text" id="telefono">
-
-            <label for="email" class="contenido">Email</label>
-            <input type="text" id="email">
-
-            <label for="mensaje" class="contenido">Cuéntanos</label>
-            <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Escriba aquí su mensaje..."></textarea>
-
-            <input class="btnFormulario contenido" type="submit">
-
-        </form>
+        <div class="container-fluid py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <div class="card bg-dark p-4">
+                            <h2 class="text-center mb-4">Formulario de Contacto</h2>
+                            <form>
+                                <div class="form-group">
+                                    <label for="nombre">Nombre:</label>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="telefono">Teléfono:</label>
+                                    <input type="tel" class="form-control" id="telefono" placeholder="Ingrese su teléfono" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="correo">Correo electrónico:</label>
+                                    <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="mensaje">Mensaje:</label>
+                                    <textarea class="form-control" id="mensaje" rows="4" placeholder="Ingrese su mensaje" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
 
