@@ -1,0 +1,4 @@
+// function: 'decoration', recibe parametro '$par-decoration' para estilizar la propiedad text-decoration
+@mixin decoration ($par-decoration) {
+    text-decoration: $par-decoration;
+}

@@ -1,0 +1,34 @@
+body {
+    background-color: $color-fondo;
+}
+
+.contenido {
+    text-align: center;
+    color: $color-fuentes;
+    margin: 30px;
+}
+
+.textoBackground {
+    background-color: $color-imagen-background;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 80%;
+}
+
+iframe {
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.iframeAcerca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mision,
+.vision {
+    flex: 1;
+    margin-top: 15px;
+}
+
