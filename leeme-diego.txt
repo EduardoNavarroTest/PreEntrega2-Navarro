@@ -1,7 +1,0 @@
-Hola Diego.
-
-Utilizé Boostrap para hacer repsonsive toda la página, además creé mi propio archivo para estilos adicionales, pero no me vi en la necesidad de hacer medias query.
-
-Quedo atento a sus comentarios.
-Gracias de antemano.
-Saludos.
